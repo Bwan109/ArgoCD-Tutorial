@@ -38,3 +38,4 @@ jobs:
           echo test, and deploy your project.
           echo Added Environment to Deploy to production
           echo created a new Prod Branch
+          echo Testing PR 
