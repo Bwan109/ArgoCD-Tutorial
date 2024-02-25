@@ -39,3 +39,8 @@ jobs:
           echo Added Environment to Deploy to production
           echo created a new Prod Branch
           echo Testing PR 
+
+      - name: Try to fail
+        run: exit 1
+      - name: Print message if we don't fail
+        run: echo Should not get here
